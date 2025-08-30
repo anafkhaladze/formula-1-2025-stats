@@ -147,7 +147,13 @@ nav a:hover {
 
 /* TEAM BACKGROUNDS */
 .mclaren {
-  background: linear-gradient(135deg, #ff8000, #111111);
+  background: linear-gradient(90deg, 
+  #863400 0%, 
+  #c55a00 30%, 
+  #be5600 50%, 
+  #c05700 75%, 
+  #f47600 100%
+);
 }
 
 .ferrari {
@@ -159,7 +165,13 @@ nav a:hover {
 }
 
 .redbull {
-  background: linear-gradient(135deg, #1e2a53, #ff1e00);
+  background: linear-gradient(90deg, 
+  #003282 0%, 
+  #2d64b8 30%, 
+  #295fb3 50%, 
+  #4680d6 75%, 
+  #4781d7 100%
+);
 }
 
 .williams {
