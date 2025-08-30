@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Outfit:wght@300;400;600;700&display=swap");
+
+.driver-hero {
+  position: relative;
+  background: linear-gradient(90deg, #b35400 0%, #ff7f00 60%);
+  color: #fff;
+  overflow: hidden;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  font-family: "Outfit", sans-serif;
+}
+
+/* Big background number */
+.driver-hero::before {
+  content: attr(data-number);
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  font: 900 clamp(140px, 40vw, 520px) / 1 "Anton", sans-serif;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.4;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.driver-hero-inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: min(1200px, 90%);
+  margin: auto;
+  z-index: 1;
+}
+
+/* Left-side copy */
+.driver-hero-copy {
+  max-width: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.driver-hero-name {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+.driver-hero-title span {
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 900;
+  font-family: "Anton", sans-serif;
+  display: block;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2), 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+/* Metadata pills */
+.driver-hero-meta {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.pill {
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  backdrop-filter: blur(2px);
+}
+
+.pill img {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Driver image */
+.driver-hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.driver-hero-image img {
+  left: 15%;
+  height: 60vh;
+  max-height: 95vh;
+  width: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 12px 24px rgba(0, 0, 0, 0.5));
+  position: relative;
+  z-index: 3;
+}
+
+/* stats */
+.stats-container {
+  display: grid;
+  grid-template-columns: 0.8fr 0.8fr 1.4fr; /* season stats narrower, career stats wider */
+  gap: 2rem;
+  padding: 2rem;
+  align-items: start;
+}
+
+/* Titles */
+#stats h2 {
+  padding: 2rem;
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Season stats grid */
+.season-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 2.9rem;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 0.5rem;
+}
+
+.stat-row span {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.stat-row .value {
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: white;
+}
+
+/* season stats second column */
+.season-stats-second-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2.9rem;
+}
+
+/* Career card */
+.stats-title {
+  padding: 5px;
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.career-stats {
+  background: #1a1b22;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.career-stats .stat-row {
+  padding: 1rem;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.career-stats .stat-row span {
+  font-size: 1rem;
+  color: #bbb;
+}
+
+.career-stats .stat-row .value {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+
+/* bio */
+#biography{
+    padding: 2rem;   
+    width: 90%;
+}
+
+.bio-details {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10rem;
+  margin-top: 1.5rem;
+}
+
+.bio-details .detail h4 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #aaa;
+}
+
+.bio-details .detail p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #fff;
+} 
+
+.bio-container {
+  display: flex;
+  align-items: flex-start; 
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.bio-image img {
+  max-width: 280px;
+  border-radius: 8px;
+}
+
+.bio-text p{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+/* Quote Section */
+.quote-section {
+  background: #14141b; 
+  padding: 3rem 5rem;
+  text-align: left;
+  border-radius: 0.5rem;
+  margin-bottom: 80px;
+}
+
+.quote-icon {
+  font-size: 4rem;
+  color: #e10600; 
+  margin-bottom: 1rem;
+}
+
+.quote-text {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.4;
+  text-transform: uppercase;
+  max-width: 1000px;
+}
+
+.quote-author {
+  display: block;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #9ca3af;
+  font-weight: 500;
+}
