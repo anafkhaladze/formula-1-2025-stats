@@ -147,23 +147,23 @@ nav a:hover {
 
 /* TEAM BACKGROUNDS */
 .mclaren {
-  background: linear-gradient(135deg, #FF8000, #111111);
+  background: linear-gradient(135deg, #ff8000, #111111);
 }
 
 .ferrari {
-  background: linear-gradient(135deg, #E80020, #111111);
+  background: linear-gradient(135deg, #e80020, #111111);
 }
 
 .mercedes {
-  background: linear-gradient(135deg, #00D2BE, #111111);
+  background: linear-gradient(135deg, #00d2be, #111111);
 }
 
 .redbull {
-  background: linear-gradient(135deg, #1E2A53, #FF1E00);
+  background: linear-gradient(135deg, #1e2a53, #ff1e00);
 }
 
 .williams {
-  background: linear-gradient(135deg, #001F5B, #00AEEF);
+  background: linear-gradient(135deg, #001f5b, #00aeef);
 }
 
 .astonmartin {
@@ -171,21 +171,20 @@ nav a:hover {
 }
 
 .kicksauber {
-  background: linear-gradient(135deg, #52E252, #111111);
+  background: linear-gradient(135deg, #52e252, #111111);
 }
 
 .racingbulls {
-  background: linear-gradient(135deg, #1E90FF, #FF007F);
+  background: linear-gradient(135deg, #1e90ff, #ff007f);
 }
 
 .haas {
-  background: linear-gradient(135deg, #B6BABD, #D50000);
+  background: linear-gradient(135deg, #b6babd, #d50000);
 }
 
 .alpine {
-  background: linear-gradient(135deg, #0090FF, #FF4C00);
+  background: linear-gradient(135deg, #0090ff, #ff4c00);
 }
-
 
 /* driver */
 #Ranking {
@@ -266,11 +265,56 @@ nav a:hover {
 
 .driver-img {
   position: absolute;
-  right: 10px; 
+  right: 10px;
   bottom: 0;
 }
 
 .driver-img img {
-  height: 230px; 
+  height: 230px;
   object-fit: contain;
+}
+
+/* footer */
+footer {
+  background: #ff0000; /* F1 red */
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+footer p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.store-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.store-buttons img {
+  height: 45px;
+  cursor: pointer;
+}
+
+.separator {
+  border-top: 2px solid black;
+  width: 150px;
+  margin: 20px auto;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 28px;
+  color: black;
+  align-items: center;
+}
+
+.social-icons img{
+  width: 35px;
 }
