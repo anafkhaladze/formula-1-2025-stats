@@ -147,32 +147,130 @@ nav a:hover {
 
 /* TEAM BACKGROUNDS */
 .mclaren {
-  background: linear-gradient(90deg, #ff8000, #ffb347, #1e1e1e);
+  background: linear-gradient(135deg, #FF8000, #111111);
 }
+
 .ferrari {
-  background: linear-gradient(to right, #e80020, #ff4c4c, #ffffff);
+  background: linear-gradient(135deg, #E80020, #111111);
 }
+
 .mercedes {
-  background: linear-gradient(to right, #c0c0c0, #000000, #27f4d2);
+  background: linear-gradient(135deg, #00D2BE, #111111);
 }
+
 .redbull {
-  background: linear-gradient(to right, #1e2a53, #3671c6, #ffd700);
+  background: linear-gradient(135deg, #1E2A53, #FF1E00);
 }
+
 .williams {
-  background: linear-gradient(to right, #001f5b, #1868db, #00aeef);
+  background: linear-gradient(135deg, #001F5B, #00AEEF);
 }
+
 .astonmartin {
-  background: linear-gradient(to right, #003b2e, #229971, #d6ff00);
+  background: linear-gradient(135deg, #038576, #00100e);
 }
+
 .kicksauber {
-  background: linear-gradient(to right, #52e252, #00ff99, #2e2e2e);
+  background: linear-gradient(135deg, #52E252, #111111);
 }
+
 .racingbulls {
-  background: linear-gradient(to right, #ffffff, #ff0000, #ffd700);
+  background: linear-gradient(135deg, #1E90FF, #FF007F);
 }
+
 .haas {
-  background: linear-gradient(to right, #000000, #b6babd, #ffffff);
+  background: linear-gradient(135deg, #B6BABD, #D50000);
 }
+
 .alpine {
-  background: linear-gradient(to right, #00a1e8, #ff4ca3, #1e1e1e);
+  background: linear-gradient(135deg, #0090FF, #FF4C00);
+}
+
+
+/* driver */
+#Ranking {
+  padding: 2rem 1rem;
+  background: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.ranking-header {
+  display: flex;
+  gap: 50px;
+}
+
+.ranking-header img[alt="f1 logo"] {
+  width: 80px;
+  margin-bottom: 0.5rem;
+}
+
+.ranking-header h3 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+#Ranking hr {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid #ffff;
+  border-radius: 2px;
+}
+
+.drivers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.driver-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  padding: 20px;
+  color: white;
+}
+
+.driver-info {
+  z-index: 2;
+}
+
+.driver-info h3 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.driver-info h3 span {
+  font-weight: 700;
+  display: block;
+}
+
+.driver-info p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.driver-info h2 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.flag {
+  width: 25px;
+  margin-top: 10px;
+}
+
+.driver-img {
+  position: absolute;
+  right: 10px; 
+  bottom: 0;
+}
+
+.driver-img img {
+  height: 230px; 
+  object-fit: contain;
 }
