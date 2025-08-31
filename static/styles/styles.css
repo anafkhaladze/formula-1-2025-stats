@@ -191,7 +191,14 @@ nav a:hover {
 }
 
 .williams {
-  background: linear-gradient(135deg, #001f5b, #00aeef);
+  background: linear-gradient(
+    90deg,
+    #000681 0%,
+    #0b34ab 30%,
+    #0c36ad 50%,
+    #00047f 75%,
+    #1868db 100%
+  );
 }
 
 .astonmartin {
