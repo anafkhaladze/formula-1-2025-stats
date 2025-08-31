@@ -161,7 +161,13 @@ nav a:hover {
 }
 
 .mercedes {
-  background: linear-gradient(135deg, #00d2be, #111111);
+background: linear-gradient(90deg, 
+  #007560 0%, 
+  #00ad91 30%, 
+  #00a78c 50%, 
+  #00a58a 75%, 
+  #00d7b6 100%
+);
 }
 
 .redbull {
