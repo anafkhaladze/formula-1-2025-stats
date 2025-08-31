@@ -147,37 +147,47 @@ nav a:hover {
 
 /* TEAM BACKGROUNDS */
 .mclaren {
-  background: linear-gradient(90deg, 
-  #863400 0%, 
-  #c55a00 30%, 
-  #be5600 50%, 
-  #c05700 75%, 
-  #f47600 100%
-);
+  background: linear-gradient(
+    90deg,
+    #863400 0%,
+    #c55a00 30%,
+    #be5600 50%,
+    #c05700 75%,
+    #f47600 100%
+  );
 }
 
 .ferrari {
-  background: linear-gradient(135deg, #e80020, #111111);
+  background: linear-gradient(
+    90deg,
+    #710006 0%,
+    #bf0b21 30%,
+    #ab081a 50%,
+    #6f0005 75%,
+    #ed1131 100%
+  );
 }
 
 .mercedes {
-background: linear-gradient(90deg, 
-  #007560 0%, 
-  #00ad91 30%, 
-  #00a78c 50%, 
-  #00a58a 75%, 
-  #00d7b6 100%
-);
+  background: linear-gradient(
+    90deg,
+    #007560 0%,
+    #00ad91 30%,
+    #00a78c 50%,
+    #00a58a 75%,
+    #00d7b6 100%
+  );
 }
 
 .redbull {
-  background: linear-gradient(90deg, 
-  #003282 0%, 
-  #2d64b8 30%, 
-  #295fb3 50%, 
-  #4680d6 75%, 
-  #4781d7 100%
-);
+  background: linear-gradient(
+    90deg,
+    #003282 0%,
+    #2d64b8 30%,
+    #295fb3 50%,
+    #4680d6 75%,
+    #4781d7 100%
+  );
 }
 
 .williams {
@@ -333,6 +343,6 @@ footer p {
   align-items: center;
 }
 
-.social-icons img{
+.social-icons img {
   width: 35px;
 }
